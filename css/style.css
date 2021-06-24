@@ -17,3 +17,7 @@ header {
 #sony-logo {
     width: 100px;
 }
+
+#header-bottom-nav {
+    height: 80px;
+}
