@@ -1,6 +1,5 @@
 /* ============ HEADER =========== */ 
 header {
-    height: 120px;
     width: 100%;
 }
 
@@ -19,5 +18,10 @@ header {
 }
 
 #header-bottom-nav {
-    height: 80px;
+    height: 100px;
+}
+
+main {
+    background-color: brown;
+    height: 500px;
 }
