@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PlayStation</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -16,78 +16,96 @@
             <img id= "sony-logo" src="./img/sony_logo.svg" alt="sony_logo">
         </div>
 
-        <section id= "header-bottom-nav d-flex align-items-center">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-7">
-                        
-                        <nav class="navbar navbar-expand-lg navbar-light">
-                            <a class="navbar-brand" href="#">
-                                <img src="./img/play_logo.svg" width="70" height="70" alt="play_logo">
-                            </a>
-                           
-                            <div class="collapse navbar-collapse" id="navbarNav">
-                              <ul class="navbar-nav">
-                                <li class="nav-item active">
-                                  <a class="nav-link" href="#">Giochi 
-                                    <img src="./img/chevron-down-solid.svg" width="15" height="15" alt="chevron-down-solid"> 
-                                  </a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#">Hardware 
-                                      <img src="./img/chevron-down-solid.svg" width="15" height="15" alt="chevron-down-solid"> 
-                                  </a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#">Servizi 
-                                      <img src="./img/chevron-down-solid.svg" width="15" height="15" alt="chevron-down-solid"> 
-                                  </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Novità 
-                                        <img src="./img/chevron-down-solid.svg" width="15" height="15" alt="chevron-down-solid"> 
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Fai acquisti 
-                                        <img src="./img/chevron-down-solid.svg" width="15" height="15" alt="chevron-down-solid"> 
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Supporto 
-                                        <img src="./img/chevron-down-solid.svg" width="15" height="15" alt="chevron-down-solid"> 
-                                    </a>
-                                </li>
-                              </ul>
-                            </div>
-                        </nav>
-                    </div>
-    
-                    <div class="col-sm-6 col-md-6 offset-lg-2 col-lg-3">
-                        <nav class="navbar navbar-expand-lg navbar-light">
-                            
-                            <div class="collapse navbar-collapse" id="navbarNav">
-                              <ul class="navbar-nav">
-                                <li class="nav-item active">
-                                  <a class="nav-link" href="#">My PlayStation
-                                    <img src="./img/chevron-down-solid.svg" width="15" height="15" alt="chevron-down-solid"> 
-                                  </a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#">Accedi</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="navbar-brand" href="#">
-                                        <img src="./img/lens.svg" width="40" height="70" alt="lens">
-                                    </a>
-                                </li>
-                              </ul>
-                            </div>
-                        </nav>
-                    </div>
+                <a class="navbar-brand" href="#">
+                    <img src="./img/play_logo.svg" width="70" height="70" alt="play_logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+               
+               
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav me-auto">
+                    <li class="nav-item me-3 active">
+                      <a class="nav-link " href="#">
+                        <span class="nav-txt-black me-2">Giochi</span>
+                        <img src="./img/chevron-down-solid.svg" width="15" height="15" alt="chevron-down-solid"> 
+                      </a>
+                    </li>
+                    <li class="nav-item me-3">
+                      <a class="nav-link" href="#">
+                          <span class="nav-txt-black me-2">Hardware</span>
+                          <img src="./img/chevron-down-solid.svg" width="15" height="15" alt="chevron-down-solid"> 
+                      </a>
+                    </li>
+                    <li class="nav-item me-3">
+                      <a class="nav-link" href="#">
+                          <span class="nav-txt-black me-2">Servizi</span> 
+                          <img src="./img/chevron-down-solid.svg" width="15" height="15" alt="chevron-down-solid"> 
+                      </a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#">
+                            <span class="nav-txt-black me-2">Novità</span>
+                            <img src="./img/chevron-down-solid.svg" width="15" height="15" alt="chevron-down-solid"> 
+                        </a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#">
+                            <span class="nav-txt-black me-2">Fai acquisti</span>
+                            <img src="./img/chevron-down-solid.svg" width="15" height="15" alt="chevron-down-solid"> 
+                        </a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#">
+                            <span class="nav-txt-black me-2">Supporto</span>
+                            <img src="./img/chevron-down-solid.svg" width="15" height="15" alt="chevron-down-solid"> 
+                        </a>
+                    </li>
+                  </ul>
+
+                  <ul class="navbar-nav">
+                    <li class="nav-item me-3 active">
+                      <a class="nav-link" href="#">
+                        <span class="nav-txt-black me-2">My PlayStation</span>
+                        <img src="./img/chevron-down-solid.svg" width="15" height="15" alt="chevron-down-solid"> 
+                      </a>
+                    </li>
+                    <li class="nav-item me-4">
+                        <button type="button" class="btn site-btn bg-363636 text-white px-3">Accedi</button> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="#">
+                            <img src="./img/lens.svg" width="40" height="40" alt="lens">
+                        </a>
+                    </li>
+                  </ul>
                 </div>
             </div>
-        </section>
+        </nav>
+                     
+                    
+                
+    
+                            
+                            
+                            
+                            
+               
+        
+
+
+
+
+
+
+
+
+
+
+
     </header>
 
 
