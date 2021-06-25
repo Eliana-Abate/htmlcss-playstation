@@ -17,7 +17,10 @@
 
 .bg-red {
     background-color: red;
+}
 
+.bg-2d64e6 {
+    background-color: #2d64e6;
 }
 
 
@@ -88,5 +91,30 @@ main {
 
 .game-cards:active {
     padding: 2px;
-    border: 3px solid rgb(0, 102, 255);
+    border: 3px solid #2787d5;
+}
+
+#ps5-launch h6 {
+    color: #2787d5;
+}
+
+#ps5-launch h1 {
+    font-size: 2.5em;
+    margin-bottom: 25px;
+}
+
+#ps5-launch p {
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #777777;
+}
+
+#ps5-console {
+    max-width: 100%;
+}
+
+.ps5-elements {
+    max-width: 100%;
+    
+
 }
