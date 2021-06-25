@@ -113,8 +113,35 @@ main {
     max-width: 100%;
 }
 
-.ps5-elements {
-    max-width: 100%;
-    
-
+.ps5-card {
+    opacity: 0.5;
+    border-bottom: 3px solid transparent;
 }
+
+.ps5-card:hover {
+    opacity: 1;
+}
+
+.ps5-card:active {
+    border-bottom: 3px solid #2787d5;
+}
+
+.ps5-element {
+    max-width: 100%;
+}
+
+
+.ps5-element-title {
+    padding-top: 10px;
+    font-size: 1.1em;
+}
+
+.p-special {
+    padding-bottom: 21px;
+}
+
+
+
+
+
+
