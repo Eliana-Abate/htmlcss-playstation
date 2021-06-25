@@ -103,9 +103,13 @@ main {
     margin-bottom: 25px;
 }
 
+#ps5-launch h2 {
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
 #ps5-launch p {
     font-size: 1.3em;
-    font-weight: 500;
     color: #777777;
 }
 
