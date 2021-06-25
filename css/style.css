@@ -147,14 +147,14 @@ main {
 
 #jumbo-2 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    height: 600px;
+    height: 700px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #it-takes-two-logo {
-    max-width: 150px;
+    max-width: 250px;
 }
 
 
