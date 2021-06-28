@@ -215,6 +215,31 @@ main {
 #ps-now-april {
     max-width: 100%;
 }
+  
+
+
+/* ============ FOOTER =========== */
+footer {
+    background-color: #00439c;
+    color: white;
+}
+
+footer img[alt='ps-footer'] {
+    width: 100px;
+}
+
+footer img[alt='language-globe'] {
+    width: 20px;
+}
+
+.link-area li {
+    list-style-type: none;
+}
+
+footer img[alt='sie-logo'] {
+    width: 120px;
+}
+
 
 
 
