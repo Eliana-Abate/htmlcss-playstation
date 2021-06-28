@@ -106,7 +106,7 @@ main {
 
 #game-list .game-cards:hover {
     transform: translateY(-10px);
-    filter: drop-shadow(10px 15px 5px rgba(0, 0, 0, 0.5);
+    filter: drop-shadow(10px 15px 5px rgba(0, 0, 0, 0.5));
 }
 
 #game-list .game-cards:active {
