@@ -52,7 +52,7 @@ header {
 }
 
 #sony-logo {
-    width: 70px;
+    width: 80px;
 }
 
 .nav-txt-black {
@@ -65,7 +65,7 @@ header nav ul li:hover .nav-txt-black {
 }
 
 header nav ul li:hover img {
-    filter: ;
+    filter: invert(1);
 }
 
 
@@ -101,14 +101,23 @@ main {
     border-radius: 20px;
 }
 
+.game-cards-selected {
+    max-width: 100%;
+    border-radius: 20px;
+    padding: 2px;
+    border: 3px solid #2787d5;
+}
+
 #game-list .game-cards:hover {
     transform: translateY(-10px);
-    filter: drop-shadow(10px 20px 5px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(10px 15px 5px rgba(0, 0, 0, 0.5));
 }
 
 #game-list .game-cards:active {
     padding: 2px;
     border: 3px solid #2787d5;
+    transform: translate(0);
+    filter: none;
 }
 
 .ps-device h6 {
@@ -137,6 +146,11 @@ main {
 .ps5-card {
     opacity: 0.5;
     border-bottom: 3px solid transparent;
+}
+
+.ps5-card-selected {
+    padding-bottom: 4px;
+    border-bottom: 3px solid #2787d5;
 }
 
 .ps5-card:hover {
