@@ -64,6 +64,10 @@ header nav ul li:hover .nav-txt-black {
     color: #2787d5;
 }
 
+header nav ul li:hover img {
+    filter: ;
+}
+
 
 
 /* ============ MAIN =========== */ 
@@ -99,7 +103,7 @@ main {
 
 #game-list .game-cards:hover {
     transform: translateY(-10px);
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    filter: drop-shadow(10px 20px 5px rgba(0, 0, 0, 0.5));
 }
 
 #game-list .game-cards:active {
