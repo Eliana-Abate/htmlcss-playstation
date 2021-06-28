@@ -232,12 +232,21 @@ footer img[alt='language-globe'] {
     width: 20px;
 }
 
+.link-area {
+    margin-bottom: 30px;
+}
+
 .link-area li {
     list-style-type: none;
+    margin-bottom: 15px;
 }
 
 footer img[alt='sie-logo'] {
-    width: 120px;
+    width: 130px;
+}
+
+.und-txt {
+    text-decoration: underline;
 }
 
 
