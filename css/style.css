@@ -171,6 +171,26 @@ main {
     border: 0;
 }
 
+#jumbo-3 {
+    background-color: #bebcbb;
+    height: 450px;
+}
+
+#ps-plus-logo {
+    width: 350px;
+}
+
+#j3-btn {
+    background-color: #d9dadc;
+    color: #2d64e6;
+}
+
+
+#ps-plus-april-monthly {
+    width: 100%;
+    height: 450px;
+}
+
 
 
 
