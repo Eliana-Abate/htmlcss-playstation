@@ -9,6 +9,7 @@
     justify-content: center;
 }
 
+
 .bg-363636 {
     background-color: #363636;
 }
@@ -58,6 +59,11 @@ header {
     color: black;
     font-size: 1em; 
 }
+
+header nav ul li:hover .nav-txt-black {
+    color: #2787d5;
+}
+
 
 
 /* ============ MAIN =========== */ 
