@@ -72,6 +72,8 @@ main {
     margin-top: 111px;
 }
 
+
+/*! -- Jumbotron 1 -- */
 #jumbo-1 {
     background-image: url(../img/jumbo-bg.png);
     height: 600px;
@@ -92,6 +94,7 @@ main {
     max-width: 300px;
 }
 
+/*! -- Game List -- */
 .game-cards {
     max-width: 100%;
     border-radius: 20px;
@@ -116,6 +119,7 @@ main {
     filter: none;
 }
 
+/*! -- PlayStation 5 and PlayStation 4 -- */
 .ps-device h6 {
     color: #2787d5;
 }
@@ -171,6 +175,7 @@ main {
     padding-bottom: 21px;
 }
 
+/*! -- Jumbotron 2 -- */
 #jumbo-2 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     height: 700px;
@@ -183,10 +188,12 @@ main {
     max-width: 250px;
 }
 
+/*! -- New games for PS4 and PS5 -- */
 #new-games .game-cards:hover {
    transform: scale(1.1);
 }
 
+/*! -- PlayStation Plus -- */
 #jumbo-3 {
     background-color: #bebcbb;
 }
@@ -204,6 +211,7 @@ main {
     max-width: 100%;
 }
 
+/*! -- PlayStation Store discounts -- */
 .ps-store h1 {
     font-size: 2.5em;
     margin-bottom: 25px;
@@ -218,6 +226,7 @@ main {
     max-width: 100%;
 }
 
+/*! -- PlayStation Now -- */
 #jumbo-4 {
     background-color: #161c3b;
     color: white;
