@@ -201,6 +201,10 @@ main {
     color: #777777;
 }
 
+.ps-store img {
+    max-width: 100%;
+}
+
 
 
 
